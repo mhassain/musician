@@ -1,0 +1,232 @@
+
+
+/*=============Header===========*/
+.poster {
+	width:100%;
+	min-height:1080px;
+	background-image:url(../img/home_musician_slider.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	padding-top:50px;
+	position:relative;
+}       
+.header{
+	max-width: 1080px;
+    background-color: #101417;
+    color: #fff;
+    height: 60px;
+    margin-left: 40px;	
+}
+	.logo{
+		height:auto;
+		line-height:60px;
+		width: 200px;
+	}
+	.logo img{
+		
+	}
+	
+	.nav{
+		margin-left: 150px;
+	}
+	.nav>ul{
+		margin-right: -100px;
+	}
+	.nav>ul>li>a{
+	line-height: 60px;
+    text-decoration: none;
+    padding: 0 15px;
+    color: #898f97;
+	font-family: 'Playfair Display', serif;
+	font-size:15px;
+	}
+	.nav>ul>li>a:hover{
+		    color: #ff334b;
+	}
+
+.poster h1{
+	font-weight: 400;
+    font-size: 90px;
+	color: rgba(216,230,231,1.00);
+	font-family: Playfair Display;
+	width: 500px;
+    text-align: left;
+	position:absolute;
+    top: 120px;
+    left: 180px;
+	
+}
+.poster p{
+	font-weight: 500;
+    font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	color: rgba(255,130,130,1.00);
+	letter-spacing: 4px;
+	position:absolute;
+	top: 410px;
+    left: 185px;
+}
+
+.poster h2{
+	color: #d8e6e7;
+	font-size: 46px;
+    line-height: 60px;
+    font-weight: 400;
+	margin-bottom: 15px;
+	font-family: Playfair Display;
+	text-align: left;
+    margin-left: 130px;
+	    margin-top: 0px;
+}
+	#signature{
+		position: absolute;
+		top: 525px;
+		left: 185px;
+	}
+	#smoke{
+		padding-top: 200px;
+	}
+	
+	
+/*=============Gallery===========*/
+.gallery{
+	width:100%;
+	min-height:460px;
+	background-image:url(../img/home_musician_sectionbg1.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	padding-top:50px;
+}
+.image_wrapper>ul>li>a>img{
+	padding:10px 0px;
+	height: auto;
+	max-width: 100%;
+}
+.gallery button{
+    margin-top: 50px;
+    padding: 14px 92px;
+    border-radius: 0px;
+    color: #d8e6e7;
+    border: 2px solid #d8e6e7;
+    cursor: pointer;
+    background-color: transparent;
+    font-family: Playfair Display;
+}
+.gallery button:hover{
+	background-color:transparent;
+	 color: #d8e6e7;
+	 border: 2px solid #d8e6e7;
+}
+
+/*=============About me===========*/
+.about_me{
+	background-image:url(../img/home_musician_decoration1.png);
+	width:100%;
+	min-height:500px;
+	background-repeat:repeat;
+	background-size:cover;
+	margin-top:90px;
+}
+.about_me h2{
+	font-size: 46px;
+    line-height: 60px;
+    font-weight: 400;
+	font-family: Playfair Display;
+	white-space:pre-line;
+	color: #172025;
+	margin-bottom: 50px;
+}
+
+	.left h3{
+		font-size: 32px;
+		line-height: 38px;
+		font-weight: 400;
+		color: #172025;
+		font-family: Playfair Display;
+		margin-bottom: 30px;
+		text-align:left;
+	}
+	.left p{
+		text-align:left;
+		color: #626262;
+		font-family: Roboto;
+		font-size:15px;
+		line-height: 25px;
+	}
+	.left button{
+		color:#ff334b;
+		border:2px solid #ff334b;
+		padding: 11px 20px;
+		margin-right: 240px;
+		background-color:transparent;
+		margin-top: 10px;
+	}
+	.left button:hover{
+		background-color: #ff334b;
+		color: #fff;
+		border:2px solid #ff334b;
+	}
+
+	
+	.middle h3{
+		font-size: 32px;
+		line-height: 38px;
+		font-weight: 400;
+		color: #172025;
+		font-family: Playfair Display;
+		margin-bottom: 30px;
+		text-align:left;
+	}
+		.mauris{
+			width: 35%;
+			padding-right: 0px;
+		}
+		.mauris img{
+			margin-bottom: 10px;
+			height: 85px;
+			border-right: 2px solid #ff334b;
+		}
+		.same_row h5{
+			font-size: 16px;
+			font-family: roboto;
+			text-align:left;
+		}
+/*=============Footer-Top===========*/
+.footer_top{
+    padding: 30px 15px;
+	background-color:#DCE2E3;
+	min-height:250px;
+
+}
+	.footer_sign {
+		padding-bottom: 35px;;
+	}
+	.icons{
+		
+	}
+	.icons ul li a i{
+		font-size: 26px;
+		padding: 0 6px;
+		color: #848c8e;
+	}
+	.footer_top p{
+		color:#848c8e;
+		white-space:pre-line;
+		font-family:Roboto;
+		font-size:16px;
+		line-height:25px;
+		padding-top: 30px;
+	}
+
+/*=============Footer===========*/
+.footer{
+	background-color:#DCE2E3;
+	border-top:2px solid #CAD1D2;
+	height:70px;
+}
+.footer>p{
+	line-height:70px;
+	margin-bottom: 0px;
+	font-family:Roboto;
+	color:#848c8e;
+}
